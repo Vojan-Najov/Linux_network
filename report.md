@@ -55,5 +55,5 @@ Linux networks configuration on virtual machines.
 - Какие из перечисленных IP адресов шлюза возможны у сети 10.10.0.0/18: \
   **Ответ: для шлюза подходят адреса - 10.10.0.2, 10.10.10.10 или 10.10.1.255;** \
   **не подходят - 10.0.0.1 и10.10.100.1 - так как они находятся вне данной подсети** \ 
-  <img src="./misc/images/ipcalc_13.png" alt="ipcalc_13" width="700"/>
+    <img src="./misc/images/ipcalc_13.png" alt="ipcalc_13" width="700"/>
   
