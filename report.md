@@ -10,6 +10,9 @@ Linux networks configuration on virtual machines.
 
 - Поднять вирутальную машину (ws1): \
   <img src="./misc/images/ipcalc_01.png" alt="ipcalc_01" width="700"/>
+
+#### 1.1. Сети и маски
+
 - Определить адрес сети 192.167.38.54/13: \
   **Ответ: 192.160.0.0/13** \
   <img src="./misc/images/ipcalc_02.png" alt="ipcalc_02" width="700"/>
@@ -34,4 +37,7 @@ Linux networks configuration on virtual machines.
 - Минимальный и максимальный хост в сети 12.167.38.4 при маске /4: \
   **Ответ: минимальный адрес - 0.0.0.1, максимальный - 15.255.255.254** \
   <img src="./misc/images/ipcalc_09.png" alt="ipcalc_09" width="700"/>
+
+#### 1.2. localhost
+
     
