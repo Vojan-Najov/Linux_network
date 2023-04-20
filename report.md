@@ -40,4 +40,9 @@ Linux networks configuration on virtual machines.
 
 #### 1.2. localhost
 
-    
+- Определить, можно ли обратиться к приложению, работающему на localhost, со следующими IP: \
+  194.34.23.100, 127.0.0.2, 127.1.0.1, 128.0.0.1 \
+  **Ответ: 127.0.0.2, 127.1.0.1 - да; 194.34.23.100, 128.0.0.1 - нет** \
+  <img src="./misc/images/ipcalc_10.png" alt="ipcalc_10" width="700"/> \
+  <img src="./misc/images/ipcalc_11.png" alt="ipcalc_11" width="700"/>
+
