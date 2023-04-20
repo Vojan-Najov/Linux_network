@@ -8,8 +8,9 @@ Linux networks configuration on virtual machines.
 
 ## Part 1. **ipcalc** tool.
 
-- Поднять вирутальную машину (ws1) \
-  <img src="./misc/images/ipcalc_01.png" alt=ipcalc_01" width="700"/>
+- Поднять вирутальную машину (ws1)
+
+<img src="./misc/images/ipcalc_01.png" alt=ipcalc_01" width="700"/>
 
 
 
