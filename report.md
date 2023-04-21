@@ -6,6 +6,7 @@ Linux networks configuration on virtual machines.
 
 1. [ipcalc tool](#part-1-ipcalc-tool)
 2. [Static routing between two machines](#part-2-static-routing-between-two-machines)
+3. [iperf3 utility](#part-3-iperf3-utility)
 
 ## Part 1. ipcalc tool
 
@@ -116,4 +117,13 @@ Linux networks configuration on virtual machines.
   - Пинг машины ws1 \
     <img src="./misc/images/static_21.png" alt="static_21" width="700"/>
 
+## Part 3. iperf3 utility
 
+#### 3.1. Скорость соединения
+
+- Перевести и записать в отчёт: 8 Mbps в MB/s, 100 MB/s в Kbps, 1 Gbps в Mbps: \
+  - 8 Mbps = 1 MB/s;
+  - 100 MB/s = 819200 Kbps (для двоичных приставок Меби и Киби); \
+    100 MB/s = 800000 Kbps (для десятичных приставок Мега и Кило);
+  - 1 Gbps = 1024 Mbps (для двоичных приставок Гиби и Меби); \
+    1 Gbps = 1000 Mbps (для десятичных приставок Гига и Мега);
