@@ -5,8 +5,9 @@ Linux networks configuration on virtual machines.
 ## Contents
 
 1. [ipcalc tool](#part-1-ipcalc-tool)
+2. [Static routing between two machines](#part-2-static-routing-between-two-machines)
 
-## Part 1. **ipcalc** tool
+## Part 1. ipcalc tool
 
 - Поднять вирутальную машину (ws1): \
   <img src="./misc/images/ipcalc_01.png" alt="ipcalc_01" width="700"/>
@@ -57,3 +58,10 @@ Linux networks configuration on virtual machines.
   **не подходят - 10.0.0.1 и 10.10.100.1 - так как они находятся вне данной подсети** \
   <img src="./misc/images/ipcalc_13.png" alt="ipcalc_13" width="700"/>
   
+## Part 2. Static routing between two machines
+
+- Поднять две виртуальные машины (ws1 и ws2) \
+  <img src="./misc/images/static_01.png" alt="static_01" width="700"/> \
+  Добавим по доолнительному сетевому интерфейсу (internal network) для каждой из машин \
+  <img src="./misc/images/static_02.png" alt="static_02" width="700"/> \
+  <img src="./misc/images/static_03.png" alt="static_03" width="700"/>
