@@ -78,4 +78,9 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/static_06.png" alt="static_06" width="700"/>
   - ws2 - 172.24.116.8, маска /12 \
     <img src="./misc/images/static_07.png" alt="static_07" width="700"/>
+- Выполнить команду `netplan apply` для перезапуска сервиса сети:
+  - машина ws1 \
+    <img src="./misc/images/static_08.png" alt="static_08" width="700"/>
+  - машина ws2 \
+    <img src="./misc/images/static_09.png" alt="static_09" width="700"/>
 
