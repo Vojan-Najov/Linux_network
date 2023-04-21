@@ -91,3 +91,8 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/static_10.png" alt="static_10" width="700"/>
   - машина ws2 : `$>sudo ip r add 192.168.100.10 dev enps08` \
     <img src="./misc/images/static_11.png" alt="static_11" width="700"/>
+- Пропинговать соединение между машинами
+  - Пинг машины ws2 \
+    <img src="./misc/images/static_12.png" alt="static_12" width="700"/>
+  - Пинг машины ws1 \
+    <img src="./misc/images/static_13.png" alt="static_13" width="700"/>
