@@ -127,3 +127,8 @@ Linux networks configuration on virtual machines.
     100 MB/s = 800000 Kbps (для десятичных приставок Мега и Кило);
   - 1 Gbps = 1024 Mbps (для двоичных приставок Гиби и Меби); \
     1 Gbps = 1000 Mbps (для десятичных приставок Гига и Мега);
+- Измерить скорость соединения между ws1 и ws2: \
+  - на машине ws2 запустим сервер iperf3 командой `$>iperf3 -s -f K` \
+    <img src="./misc/images/iperf3_01.png" alt="iperf3_01" width="700"/>
+  - на машине ws1 pfgecnbv клиент iperf3 командой `$>iperf3 -c 172.24.116.8 -f K` \
+    <img src="./misc/images/iperf3_02.png" alt="iperf3_02" width="700"/>
