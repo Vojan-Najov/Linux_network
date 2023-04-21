@@ -132,13 +132,13 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/iperf3_02.png" alt="iperf3_02" width="700"/>
   - на машине ws1 запустим клиент iperf3 командой `$>iperf3 -c 172.24.116.8 -f K` \
     <img src="./misc/images/iperf3_01.png" alt="iperf3_01" width="700"/>
-  - Битрейт отправителя (ws1) - 127798 KBytes/sec; \
-    Битрейт получателя (ws2) - 127629 KBytes/sec;
+  - **Битрейт отправителя (ws1) - 127798 KBytes/sec;** \
+    **Битрейт получателя (ws2) - 127629 KBytes/sec;**
   - на машине ws1 запустим сервер iperf3 командой `$>iperf3 -s -f K` \
     <img src="./misc/images/iperf3_03.png" alt="iperf3_03" width="700"/>
   - на машине ws2 запустим клиент iperf3 командой `$>iperf3 -c 192.168.100.10 -f K` \
     <img src="./misc/images/iperf3_04.png" alt="iperf3_04" width="700"/>
-  - Битрейт отправителя (ws2) - 132990 KBytes/sec; \
-    Битрейт получателя (ws1) - 132800 KBytes/sec;
+  - **Битрейт отправителя (ws2) - 132990 KBytes/sec;** \
+    **Битрейт получателя (ws1) - 132800 KBytes/sec;**
 
 
