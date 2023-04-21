@@ -96,3 +96,16 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/static_12.png" alt="static_12" width="700"/>
   - Пинг машины ws1 \
     <img src="./misc/images/static_13.png" alt="static_13" width="700"/>
+
+#### 2.2. Добавление статического маршрута с сохранением
+- Перезапустить машины командой `reboot`
+  - ws1: \
+    <img src="./misc/images/static_14.png" alt="static_14" width="700"/>
+  - ws2: \
+    <img src="./misc/images/static_15.png" alt="static_15" width="700"/>
+- Добавить статический маршрут от одной машины до другой с помощью файла etc/netplan/00-installer-config.yaml:
+  - машина ws1: `$sudo vim /etc/netplan/00-installer-config.yaml` \
+    <img src="./misc/images/static_16.png" alt="static_16" width="700"/>
+  - машина ws2: `$sudo vim /etc/netplan/00-installer-config.yaml` \
+    <img src="./misc/images/static_17.png" alt="static_17" width="700"/>
+
