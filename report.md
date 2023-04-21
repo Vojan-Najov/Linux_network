@@ -84,3 +84,10 @@ Linux networks configuration on virtual machines.
   - машина ws2 \
     <img src="./misc/images/static_09.png" alt="static_09" width="700"/>
 
+#### 2.1. Добавление статического маршрута вручную
+
+- Добавить статический маршрут от одной машины до другой и обратно при помощи команды `ip r add`
+  - машина ws1 : `$>sudo ip r add 172.24.116.8 dev enps08` \
+    <img src="./misc/images/static_10.png" alt="static_10" width="700"/>
+  - машина ws2 : `$>sudo ip r add 192.168.100.10 dev enps08` \
+    <img src="./misc/images/static_11.png" alt="static_11" width="700"/>
