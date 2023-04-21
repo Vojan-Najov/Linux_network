@@ -63,12 +63,19 @@ Linux networks configuration on virtual machines.
 - Поднять две виртуальные машины (ws1 и ws2): \
   <img src="./misc/images/static_01.png" alt="static_01" width="700"/> \
   Добавим по дополнительному сетевому интерфейсу (internal network) для каждой из машин:
-  - для ws1 \
+  - машина ws1 \
     <img src="./misc/images/static_02.png" alt="static_02" width="700"/>
-  - для ws2 \
+  - машина ws2 \
     <img src="./misc/images/static_03.png" alt="static_03" width="700"/>
 - С помощью команды `ip a` посмотреть существующие сетевые интерфейсы:
-  - для ws1 \
+  - машина ws1 \
     <img src="./misc/images/static_04.png" alt="static_04" width="700"/>
-  - для ws2 \
+  - машина ws2 \
     <img src="./misc/images/static_05.png" alt="static_05" width="700"/>
+- Описать сетевой интерфейс, соответствующий внутренней сети, на обеих машинах и задать следующие адреса и маски. \
+  Для этого изменим конфигурационные файлы командой `sudo vim /etc/netplan/00-installer-config.yaml`, описав интерфейсы `enp0s8`:
+  - ws1 - 192.168.100.10, маска /16 \
+    <img src="./misc/images/static_06.png" alt="static_06" width="700"/>
+  - ws2 - 172.24.116.8, маска /12 \
+    <img src="./misc/images/static_07.png" alt="static_07" width="700"/>
+
