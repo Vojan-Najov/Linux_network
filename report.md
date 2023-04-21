@@ -60,8 +60,13 @@ Linux networks configuration on virtual machines.
   
 ## Part 2. Static routing between two machines
 
-- Поднять две виртуальные машины (ws1 и ws2) \
+- Поднять две виртуальные машины (ws1 и ws2): \
   <img src="./misc/images/static_01.png" alt="static_01" width="700"/> \
   Добавим по доолнительному сетевому интерфейсу (internal network) для каждой из машин \
   <img src="./misc/images/static_02.png" alt="static_02" width="700"/> \
   <img src="./misc/images/static_03.png" alt="static_03" width="700"/>
+- С помощью команды `ip a` посмотреть существующие сетевые интерфейсы:
+  - для ws1 \
+    <img src="./misc/images/static_04.png" alt="static_04" width="700"/>
+  - для ws2 \
+    <img src="./misc/images/static_05.png" alt="static_05" width="700"/>
