@@ -106,10 +106,10 @@ Linux networks configuration on virtual machines.
 - Добавить статический маршрут от одной машины до другой с помощью файла etc/netplan/00-installer-config.yaml:
   - машина ws1: `$sudo vim /etc/netplan/00-installer-config.yaml` \
     <img src="./misc/images/static_16.png" alt="static_16" width="700"/> \
-    <img src="./misc/images/static_18.png" alt="static_18" width="700"/>
+    <img src="./misc/images/static_19.png" alt="static_19" width="700"/>
   - машина ws2: `$sudo vim /etc/netplan/00-installer-config.yaml` \
     <img src="./misc/images/static_17.png" alt="static_17" width="700"/> \
-    <img src="./misc/images/static_19.png" alt="static_19" width="700"/>
+    <img src="./misc/images/static_18.png" alt="static_18" width="700"/>
 - Пропинговать соединение между машинами:
   - Пинг машины ws2 \
     <img src="./misc/images/static_20.png" alt="static_20" width="700"/>
