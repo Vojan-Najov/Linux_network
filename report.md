@@ -156,4 +156,5 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/firewall_03.png" alt="firewall_03" width="700"/>
   - Машина ws2: \
     <img src="./misc/images/firewall_04.png" alt="firewall_04" width="700"/>
+- Правила обрабатываются в порядке их следования в таблице. Поэтому для исходящего icmp пакета на машине ws1 сначала будет следовать действие REJECT (отклонить пакет), и следующее действие ACCEPT (разрешение на прохождение пакета далее по цепочке
 
