@@ -7,6 +7,7 @@ Linux networks configuration on virtual machines.
 1. [ipcalc tool](#part-1-ipcalc-tool)
 2. [Static routing between two machines](#part-2-static-routing-between-two-machines)
 3. [iperf3 utility](#part-3-iperf3-utility)
+4. [Network firewall](#part-4-network-firewall)
 
 ## Part 1. ipcalc tool
 
@@ -141,4 +142,18 @@ Linux networks configuration on virtual machines.
   - **Битрейт отправителя (ws2) - 132990 KBytes/sec;** \
     **Битрейт получателя (ws1) - 132800 KBytes/sec;**
 
+## Part 4. Network firewall
+
+#### 4.1. Утилита iptables
+
+- Создать файл /etc/firewall.sh, имитирующий фаерволл, на ws1 и ws2:
+  - Машина ws1: \
+    <img src="./misc/images/firewall_01.png" alt="firewall_01" width="700"/>
+  - Машина ws2: \
+    <img src="./misc/images/firewall_02.png" alt="firewall_02" width="700"/>
+- Запустить файлы на обеих машинах командами `$>chmod +x /etc/firewall.sh` и `$>/etc/firewall.sh`:
+  - Машина ws1: \
+    <img src="./misc/images/firewall_03.png" alt="firewall_03" width="700"/>
+  - Машина ws2: \
+    <img src="./misc/images/firewall_04.png" alt="firewall_04" width="700"/>
 
