@@ -220,10 +220,16 @@ Linux networks configuration on virtual machines.
 #### 5.2. Включение переадресации IP-адресов.
 
 - Для включения переадресации IP, выполним команду на роутерах: \
-  `$>sysctl -w net.ipv4.ip_forward=1` \
+  `$>sysctl -w net.ipv4.ip_forward=1`
   - **Машина r1:** \
     <img src="./misc/images/route_15.png" alt="route_15" width="700"/>
   - **Машина r2:** \
     <img src="./misc/images/route_16.png" alt="route_16" width="700"/>
+- Чтобы переадресация оставалась работать после перезагрузки системы, \
+  изменим конфигурационный файл /etc/sysctl.conf:
+  - **Машина r1:** \
+    <img src="./misc/images/route_17.png" alt="route_15" width="700"/>
+  - **Машина r2:** \
+    <img src="./misc/images/route_18.png" alt="route_15" width="700"/>
 
 
