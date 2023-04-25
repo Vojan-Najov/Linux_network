@@ -8,6 +8,7 @@ Linux networks configuration on virtual machines.
 2. [Static routing between two machines](#part-2-static-routing-between-two-machines)
 3. [iperf3 utility](#part-3-iperf3-utility)
 4. [Network firewall](#part-4-network-firewall)
+5. [Part 5. Static network routing](#part-5-static-network-routing)
 
 ## Part 1. ipcalc tool
 
@@ -166,3 +167,11 @@ Linux networks configuration on virtual machines.
   - Неуспешный пинг машины ws1 с машины ws2 и вывод утилиты `nmap` \
     <img src="./misc/images/firewall_06.png" alt="firewall_06" width="700"/>
 
+## Part 5. Static network routing
+
+- Поднять пять виртуальных машин (3 рабочие станции (ws11, ws21, ws22) и 2 роутера (r1, r2)) \
+  <img src="./misc/images/route_01.png" alt="route_01" width="700"/> \
+  <img src="./misc/images/route_02.png" alt="route_02" width="700"/> \
+  <img src="./misc/images/route_03.png" alt="route_03" width="700"/> \
+  <img src="./misc/images/route_04.png" alt="route_04" width="700"/> \
+  <img src="./misc/images/route_05.png" alt="route_05" width="700"/>
