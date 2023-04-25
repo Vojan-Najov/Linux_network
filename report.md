@@ -8,7 +8,7 @@ Linux networks configuration on virtual machines.
 2. [Static routing between two machines](#part-2-static-routing-between-two-machines)
 3. [iperf3 utility](#part-3-iperf3-utility)
 4. [Network firewall](#part-4-network-firewall)
-5. [Part 5. Static network routing](#part-5-static-network-routing)
+5. [Static network routing](#part-5-static-network-routing)
 
 ## Part 1. ipcalc tool
 
