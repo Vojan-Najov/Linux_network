@@ -203,4 +203,17 @@ Linux networks configuration on virtual machines.
     и добавим второй сетевой адаптер internal net с именем сети intnet_wsr2; \
     а затем на самой машине изменим конфигурационные файлы: \
     <img src="./misc/images/route_09.png" alt="route_09" width="700"/>
+- Применим настройки конфигурационного файла netplan командой`$>sudo netplan apply`
+- Перезапустить сервис сети. Командой `$>ip -4 a` проверить, что адрес машины задан верно. \
+  Также пропинговать ws22 с ws21. Аналогично пропинговать r1 с ws11.
+  - **Машина ws11:** \
+    <img src="./misc/images/route_10.png" alt="route_10" width="700"/>
+  - **Машина r1:** \
+    <img src="./misc/images/route_11.png" alt="route_11" width="700"/>
+  - **Машина ws21:** \
+    <img src="./misc/images/route_12.png" alt="route_12" width="700"/>
+  - **Машина ws22:** \
+    <img src="./misc/images/route_13.png" alt="route_13" width="700"/>
+  - **Машина r2:** \
+    <img src="./misc/images/route_14.png" alt="route_14" width="700"/>
 
