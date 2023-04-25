@@ -217,3 +217,13 @@ Linux networks configuration on virtual machines.
   - **Машина r2:** \
     <img src="./misc/images/route_14.png" alt="route_14" width="700"/>
 
+#### 5.2. Включение переадресации IP-адресов.
+
+- Для включения переадресации IP, выполним команду на роутерах: \
+  `$>sysctl -w net.ipv4.ip_forward=1` \
+  - **Машина r1:** \
+    <img src="./misc/images/route_15.png" alt="route_15" width="700"/>
+  - **Машина r2:** \
+    <img src="./misc/images/route_16.png" alt="route_16" width="700"/>
+
+
