@@ -183,4 +183,6 @@ Linux networks configuration on virtual machines.
 - Настроить конфигурации машин в etc/netplan/00-installer-config.yaml согласно сети на рисунке выше. А также добавим имена машин в файл `/etc/hosts`.
   - Машина ws11: \
     <img src="./misc/images/route_06.png" alt="route_06" width="700"/>
+  - Машина r1: \
+    <img src="./misc/images/route_07.png" alt="route_07" width="700"/>
 
