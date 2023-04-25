@@ -186,5 +186,7 @@ Linux networks configuration on virtual machines.
   - Машина r1: \
     <img src="./misc/images/route_07.png" alt="route_07" width="700"/>
   - Машина ws21: \
-    <img src="./misc/images/route_08.png" alt="route_07" width="700"/>
+    <img src="./misc/images/route_08.png" alt="route_08" width="700"/>
+  - Машина ws22: \
+    <img src="./misc/images/route_09.png" alt="route_09" width="700"/>
 
