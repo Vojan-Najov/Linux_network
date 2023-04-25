@@ -169,8 +169,8 @@ Linux networks configuration on virtual machines.
 
 ## Part 5. Static network routing
 
+- Cеть: \
   <img src="./misc/images/part5_network.png" alt="route_00" width="700"/>
-
 - Поднять пять виртуальных машин (3 рабочие станции (ws11, ws21, ws22) и 2 роутера (r1, r2)) \
   <img src="./misc/images/route_01.png" alt="route_01" width="700"/> \
   <img src="./misc/images/route_02.png" alt="route_02" width="700"/> \
