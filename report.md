@@ -182,11 +182,25 @@ Linux networks configuration on virtual machines.
 
 - Настроить конфигурации машин в etc/netplan/00-installer-config.yaml согласно сети на рисунке выше. А также добавим имена машин в файл `/etc/hosts`.
   - Машина ws11: \
+    в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_wsr1; \
+    а затем на самой машине конфигурационные файлы: \
     <img src="./misc/images/route_06.png" alt="route_06" width="700"/>
   - Машина r1: \
+    в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_wsr1 \
+    и добавим второй сетевой адаптер internal net с именем сети intnet_rr; \
+    а затем на самой машине изменим конфигурационные файлы: \
     <img src="./misc/images/route_07.png" alt="route_07" width="700"/>
   - Машина ws21: \
+    в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_wsr2; \
+    а затем на самой машине конфигурационные файлы: \
     <img src="./misc/images/route_08.png" alt="route_08" width="700"/>
   - Машина ws22: \
+    в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_wsr2; \
+    а затем на самой машине конфигурационные файлы: \
+    <img src="./misc/images/route_09.png" alt="route_09" width="700"/>
+  - Машина r2: \
+    в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_rr; \
+    и добавим второй сетевой адаптер internal net с именем сети intnet_wsr2; \
+    а затем на самой машине конфигурационные файлы: \
     <img src="./misc/images/route_09.png" alt="route_09" width="700"/>
 
