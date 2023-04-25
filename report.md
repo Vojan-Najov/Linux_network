@@ -228,8 +228,24 @@ Linux networks configuration on virtual machines.
 - Чтобы переадресация оставалась работать после перезагрузки системы, \
   изменим конфигурационный файл /etc/sysctl.conf:
   - **Машина r1:** \
-    <img src="./misc/images/route_17.png" alt="route_15" width="700"/>
+    <img src="./misc/images/route_17.png" alt="route_17" width="700"/>
   - **Машина r2:** \
-    <img src="./misc/images/route_18.png" alt="route_15" width="700"/>
+    <img src="./misc/images/route_18.png" alt="route_18" width="700"/>
 
+#### 5.3. Установка маршрута по-умолчанию
+
+- Настроить маршрут по-умолчанию (шлюз) для рабочих станций.
+  - **Машина ws11:** \
+    <img src="./misc/images/route_19.png" alt="route_19" width="700"/>
+  - **Машина ws21:** \
+    <img src="./misc/images/route_20.png" alt="route_20" width="700"/>
+  - **Машина ws22:** \
+    <img src="./misc/images/route_21.png" alt="route_21" width="700"/>
+- Вызвать ip r и показать, что добавился маршрут в таблицу маршрутизации:
+  - **Машина ws11:** \
+    <img src="./misc/images/route_22.png" alt="route_22" width="700"/>
+  - **Машина ws21:** \
+    <img src="./misc/images/route_23.png" alt="route_23" width="700"/>
+  - **Машина ws22:** \
+    <img src="./misc/images/route_24.png" alt="route_24" width="700"/>
 
