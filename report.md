@@ -270,5 +270,6 @@ Linux networks configuration on virtual machines.
 
 - Запустить на r1 команду дампа `$>tcpdump -tnv -i eth0`. \
   При помощи утилиты `traceroute` построить список маршрутизаторов на пути от `ws11` до `ws21`: \
-  <img src="./misc/images/route_30.png" alt="route_30" width="700"/>
+  <img src="./misc/images/route_30.png" alt="route_30" width="700"/> \
+  <img src="./misc/images/route_31.png" alt="route_31" width="700"/>
 
