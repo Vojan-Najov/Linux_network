@@ -248,4 +248,9 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/route_23.png" alt="route_23" width="700"/>
   - **Машина ws22:** \
     <img src="./misc/images/route_24.png" alt="route_24" width="700"/>
+- Пропинговать с `ws11` роутер `r2` и показать на `r2`, что пинг доходит. \
+  Для этого использовать команду: `$>sudo tcpdump -tn -i eth0` \
+    <img src="./misc/images/route_25.png" alt="route_25" width="700"/> \
+    <img src="./misc/images/route_26.png" alt="route_26" width="700"/>
+
 
