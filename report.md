@@ -202,7 +202,7 @@ Linux networks configuration on virtual machines.
     в настройках VirtualBox сетевой адаптер 1 изменим на internal net с именем intnet_rr; \
     и добавим второй сетевой адаптер internal net с именем сети intnet_wsr2; \
     а затем на самой машине изменим конфигурационные файлы: \
-    <img src="./misc/images/route_09.png" alt="route_09" width="700"/>
+    <img src="./misc/images/route_09.png" alt="route_09_2" width="700"/>
 - Применим настройки конфигурационного файла netplan командой`$>sudo netplan apply`
 - Перезапустить сервис сети. Командой `$>ip -4 a` проверить, что адрес машины задан верно. \
   Также пропинговать ws22 с ws21. Аналогично пропинговать r1 с ws11.
