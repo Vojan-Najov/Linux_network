@@ -253,4 +253,13 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/route_25.png" alt="route_25" width="700"/> \
     <img src="./misc/images/route_26.png" alt="route_26" width="700"/>
 
+#### 5.4. Добавление статических маршрутов
+
+- Добавить в роутеры r1 и r2 статические маршруты в файле конфигураций. \
+  Вызвать `ip r` и показать таблицы с маршрутами на обоих роутерах.
+  - **r1:** \
+    <img src="./misc/images/route_27.png" alt="route_27" width="700"/>
+  - **r2:** \
+    <img src="./misc/images/route_28.png" alt="route_28" width="700"/>
+
 
