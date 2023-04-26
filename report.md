@@ -277,7 +277,7 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/route_32.png" alt="route_32" width="700"/> \
   также можно проследить примерный маршрут в обратном направлении: \
   от ws21 до w11, от r2 до ws11 и от r1 до ws11: \
-  или ws21 -> r2 -> r1 -> ws11: \
-  т.e. ws11 -> r1 -> r2 -> ws21: \
-  <img src="./misc/images/route_33.png" alt="route_33" width="700"/>
+  <img src="./misc/images/route_33.png" alt="route_33" width="700"/> \
+  или ws21 -> r2 -> r1 -> ws11; \
+  т.e. ws11 -> r1 -> r2 -> ws21;
 
