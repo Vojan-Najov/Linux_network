@@ -281,3 +281,9 @@ Linux networks configuration on virtual machines.
   или ws21 -> r2 -> r1 -> ws11; \
   т.e. ws11 -> r1 -> r2 -> ws21;
 
+#### 5.6. Использование протокола ICMP при маршрутизации
+
+- Запустить на `r1` перехват сетевого трафика, проходящего через eth0 с помощью команды: `tcpdump -n -i eth0 icmp` \
+  Пропинговать с ws11 несуществующий IP (например, 10.30.0.111) с помощью команды: `ping -c 1 10.30.0.111` \
+  <img src="./misc/images/route_34.png" alt="route_34" width="700"/> \
+  <img src="./misc/images/route_35.png" alt="route_35" width="700"/>
