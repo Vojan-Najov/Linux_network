@@ -261,5 +261,8 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/route_27.png" alt="route_27" width="700"/>
   - **r2:** \
     <img src="./misc/images/route_28.png" alt="route_28" width="700"/>
+- Запустить команды на ws11: \
+  `ip r list 10.10.0.0/[маска сети]` и `ip r list 0.0.0.0/0`: \
+  <img src="./misc/images/route_29.png" alt="route_29" width="700"/>
 
 
