@@ -312,4 +312,3 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/dhcp_07.png" alt="dhcp_07" width="700"/> \
     <img src="./misc/images/dhcp_08.png" alt="dhcp_08" width="700"/>
 
-
