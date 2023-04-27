@@ -295,5 +295,5 @@ Linux networks configuration on virtual machines.
 - Для r2 настроить в файле /etc/dhcp/dhcpd.conf конфигурацию службы DHCP: \
   указать адрес маршрутизатора по-умолчанию, DNS-сервер и адрес внутренней сети \
   в файле resolv.conf прописать nameserver 8.8.8.8 \
-  <img src="./misc/images/dhcp.png" alt="dhcp_01" width="700"/>
+  <img src="./misc/images/dhcp_01.png" alt="dhcp_01" width="700"/>
 
