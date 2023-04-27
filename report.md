@@ -289,7 +289,7 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/route_34.png" alt="route_34" width="700"/> \
   <img src="./misc/images/route_35.png" alt="route_35" width="700"/>
 
-## Part 6. Динамическая настройка IP с помощью DHCP
+## Part 6. Dynamic IP configuration using DHCP
 
 Для r2 настроить в файле /etc/dhcp/dhcpd.conf конфигурацию службы DHCP:
 
