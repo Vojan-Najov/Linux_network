@@ -9,6 +9,7 @@ Linux networks configuration on virtual machines.
 3. [iperf3 utility](#part-3-iperf3-utility)
 4. [Network firewall](#part-4-network-firewall)
 5. [Static network routing](#part-5-static-network-routing)
+6. [Dynamic IP configuration using DHCP](#part-6-dynamic-ip-configuration-using-dhcp)
 
 ## Part 1. ipcalc tool
 
@@ -287,3 +288,19 @@ Linux networks configuration on virtual machines.
   Пропинговать с ws11 несуществующий IP (например, 10.30.0.111) с помощью команды: `ping -c 1 10.30.0.111` \
   <img src="./misc/images/route_34.png" alt="route_34" width="700"/> \
   <img src="./misc/images/route_35.png" alt="route_35" width="700"/>
+
+## Part 6. Динамическая настройка IP с помощью DHCP
+
+Для r2 настроить в файле /etc/dhcp/dhcpd.conf конфигурацию службы DHCP:
+
+1) указать адрес маршрутизатора по-умолчанию, DNS-сервер и адрес внутренней сети. Пример файла для r2:
+subnet 10.100.0.0 netmask 255.255.0.0 {}
+
+subnet 10.20.0.0 netmask 255.255.255.192
+{
+    range 10.20.0.2 10.20.0.50;
+    option routers 10.20.0.1;
+    option domain-name-servers 10.20.0.1;
+}
+
+2) в файле resolv.conf прописать nameserver 8.8.8.8.
