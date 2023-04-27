@@ -305,5 +305,11 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/dhcp_04.png" alt="dhcp_04" width="700"/>
   - Затем на самой машине: \
     <img src="./misc/images/dhcp_05.png" alt="dhcp_05" width="700"/>
+- Для `r1` настроить аналогично `r2`, но сделать выдачу адресов с жесткой привязкой к MAC-адресу (`ws11`).
+  - Машина `r1`: \
+    <img src="./misc/images/dhcp_06.png" alt="dhcp_06" width="700"/>
+  - Машина `ws11`: \
+    <img src="./misc/images/dhcp_07.png" alt="dhcp_07" width="700"/> \
+    <img src="./misc/images/dhcp_08.png" alt="dhcp_08" width="700"/>
 
 
