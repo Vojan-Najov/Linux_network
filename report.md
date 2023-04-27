@@ -311,4 +311,6 @@ Linux networks configuration on virtual machines.
   - Машина `ws11`: \
     <img src="./misc/images/dhcp_07.png" alt="dhcp_07" width="700"/> \
     <img src="./misc/images/dhcp_08.png" alt="dhcp_08" width="700"/>
+- Запросить с `ws21` обновление ip адреса. \
+  <img src="./misc/images/dhcp_09.png" alt="dhcp_09" width="700"/>
 
