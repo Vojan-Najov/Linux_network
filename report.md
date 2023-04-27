@@ -314,3 +314,4 @@ Linux networks configuration on virtual machines.
 - Запросить с `ws21` обновление ip адреса. \
   <img src="./misc/images/dhcp_09.png" alt="dhcp_09" width="700"/>
 
+
