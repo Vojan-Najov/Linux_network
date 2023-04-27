@@ -315,7 +315,7 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/dhcp_09.png" alt="dhcp_09" width="700"/>
 - Опции dhcp сeрвера: 
   - dhcp-lease-time;
-  - routers
-  - domain-name-servers
+  - routers;
+  - domain-name-servers;
 
 
