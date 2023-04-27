@@ -313,5 +313,9 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/dhcp_08.png" alt="dhcp_08" width="700"/>
 - Запросить с `ws21` обновление ip адреса. \
   <img src="./misc/images/dhcp_09.png" alt="dhcp_09" width="700"/>
+- Опции dhcp сeрвера: 
+  - dhcp-lease-time;
+  - routers
+  - domain-name-servers
 
 
