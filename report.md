@@ -10,6 +10,7 @@ Linux networks configuration on virtual machines.
 4. [Network firewall](#part-4-network-firewall)
 5. [Static network routing](#part-5-static-network-routing)
 6. [Dynamic IP configuration using DHCP](#part-6-dynamic-ip-configuration-using-dhcp)
+7. [Part 7. NAT](#part-7-nat)
 
 ## Part 1. ipcalc tool
 
@@ -317,5 +318,15 @@ Linux networks configuration on virtual machines.
   - dhcp-lease-time;
   - routers;
   - domain-name-servers;
+
+## Part 7. NAT
+
+- Установим apache сервер командой `$>sudo apt install apache2`
+- В файле `/etc/apache2/ports.conf` на `ws22` и `r1` изменить строку `Listen 80` на `Listen 0.0.0.0:80`, \
+  то есть сделать сервер Apache2 общедоступным:
+  - машина `ws22`: \
+  <img src="./misc/images/nat_01.png" alt="nat_01" width="700"/>
+  - машина `r1`: \
+  <img src="./misc/images/nat_02.png" alt="nat_02" width="700"/>
 
 
