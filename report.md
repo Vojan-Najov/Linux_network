@@ -292,12 +292,12 @@ Linux networks configuration on virtual machines.
 ## Part 6. Dynamic IP configuration using DHCP
 
 - Установим dhcp сервер командой `$>sudo apt install isc-dhcp-server`
-- Для r2 настроить в файле /etc/dhcp/dhcpd.conf конфигурацию службы DHCP: \
+- Для `r2` настроить в файле `/etc/dhcp/dhcpd.conf` конфигурацию службы `DHCP`: \
   указать адрес маршрутизатора по-умолчанию, DNS-сервер и адрес внутренней сети \
-  в файле resolv.conf прописать nameserver 8.8.8.8 \
+  в файле `resolv.conf` прописать nameserver 8.8.8.8 \
   <img src="./misc/images/dhcp_01.png" alt="dhcp_01" width="700"/>
-- Машину ws21 перезагрузить при помощи reboot и через ip a показать, что она получила адрес. \
-  Также пропинговать ws22 с ws21. \
+- Машину `ws21` перезагрузить при помощи `reboot` и через `ip a` показать, что она получила адрес. \
+  Также пропинговать `ws22` с `ws21`. \
   <img src="./misc/images/dhcp_02.png" alt="dhcp_02" width="700"/> \
   <img src="./misc/images/dhcp_03.png" alt="dhcp_03" width="700"/>
 - Указать MAC адрес у ws11, для этого в etc/netplan/00-installer-config.yaml надо добавить строки: macaddress: 10:10:10:10:10:BA, dhcp4: true
