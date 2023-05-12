@@ -242,7 +242,7 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/route_20.png" alt="route_20" width="700"/>
   - **Машина ws22:** \
     <img src="./misc/images/route_21.png" alt="route_21" width="700"/>
-- Вызвать ip r и показать, что добавился маршрут в таблицу маршрутизации:
+- Вызвать `ip r` и показать, что добавился маршрут в таблицу маршрутизации:
   - **Машина ws11:** \
     <img src="./misc/images/route_22.png" alt="route_22" width="700"/>
   - **Машина ws21:** \
