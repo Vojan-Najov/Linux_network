@@ -343,6 +343,8 @@ Linux networks configuration on virtual machines.
 - Проверить соединение между `ws22` и `r1` командой ping: \
   <img src="./misc/images/nat_07.png" alt="nat_07" width="700"/> \
   <img src="./misc/images/nat_08.png" alt="nat_08" width="700"/>
-  
+- Добавить в файл ещё два правила: \
+  включить SNAT, а именно маскирование всех локальных ip из локальной сети, находящейся за r2 \
+  включить DNAT на 8080 порт машины r2 и добавить к веб-серверу Apache, запущенному на ws22, доступ извне сети \
 
 
