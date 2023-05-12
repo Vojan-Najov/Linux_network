@@ -334,5 +334,8 @@ Linux networks configuration on virtual machines.
   удаление правил в таблице "NAT" - `iptables -F -t nat` \
   отбрасывать все маршрутизируемые пакеты - `iptables --policy FORWARD DROP` \
   <img src="./misc/images/nat_03.png" alt="nat_03" width="700"/>
+- Проверить соединение между `ws22` и `r1` командой `ping`: \
+  <img src="./misc/images/nat_04.png" alt="nat_04" width="700"/> \
+  <img src="./misc/images/nat_05.png" alt="nat_05" width="700"/>
 
 
