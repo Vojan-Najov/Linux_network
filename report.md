@@ -337,5 +337,12 @@ Linux networks configuration on virtual machines.
 - Проверить соединение между `ws22` и `r1` командой `ping`: \
   <img src="./misc/images/nat_04.png" alt="nat_04" width="700"/> \
   <img src="./misc/images/nat_05.png" alt="nat_05" width="700"/>
+- Добавить в файл ещё одно правило: /
+  разрешить маршрутизацию всех пакетов протокола ICMP /
+  <img src="./misc/images/nat_06.png" alt="nat_06" width="700"/>
+- Проверить соединение между ws22 и r1 командой ping: /
+  <img src="./misc/images/nat_07.png" alt="nat_07" width="700"/> /
+  <img src="./misc/images/nat_08.png" alt="nat_08" width="700"/>
+  
 
 
