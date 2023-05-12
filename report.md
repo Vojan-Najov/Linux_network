@@ -300,8 +300,8 @@ Linux networks configuration on virtual machines.
   Также пропинговать `ws22` с `ws21`. \
   <img src="./misc/images/dhcp_02.png" alt="dhcp_02" width="700"/> \
   <img src="./misc/images/dhcp_03.png" alt="dhcp_03" width="700"/>
-- Указать MAC адрес у ws11, для этого в etc/netplan/00-installer-config.yaml надо добавить строки: macaddress: 10:10:10:10:10:BA, dhcp4: true
-  - Сначала изменим мак-адрес в настройках сети для виртуальной машины в VirtualBox: \
+- Указать MAC адрес у `ws11`, для этого в `etc/netplan/00-installer-config.yaml` надо добавить строки: `macaddress: 10:10:10:10:10:BA, dhcp4: true`
+  - Сначала изменим мак-адрес в настройках сети для виртуальной машины в `VirtualBox`: \
     <img src="./misc/images/dhcp_04.png" alt="dhcp_04" width="700"/>
   - Затем на самой машине: \
     <img src="./misc/images/dhcp_05.png" alt="dhcp_05" width="700"/>
