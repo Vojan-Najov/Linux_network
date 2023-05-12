@@ -332,6 +332,10 @@ Linux networks configuration on virtual machines.
 - Добавить в фаервол, созданный по аналогии с фаерволом из Части 4, на `r2` следующие правила: \
   удаление правил в таблице filter - `iptables -F` \
   удаление правил в таблице "NAT" - `iptables -F -t nat` \
-  отбрасывать все маршрутизируемые пакеты - `iptables --policy FORWARD DROP`
+  отбрасывать все маршрутизируемые пакеты - `iptables --policy FORWARD DROP` \
+  - машина `ws22`: \
+    <img src="./misc/images/nat_03.png" alt="nat_03" width="700"/>
+  - машина `r1`: \
+    <img src="./misc/images/nat_04.png" alt="nat_04" width="700"/>
 
 
