@@ -323,12 +323,12 @@ Linux networks configuration on virtual machines.
 
 - Установим apache сервер командой `$>sudo apt install apache2`
 - В файле `/etc/apache2/ports.conf` на `ws22` и `r1` изменить строку `Listen 80` на `Listen 0.0.0.0:80`, \
-  то есть сделать сервер Apache2 общедоступным;
-- Запустить веб-сервер Apache командой `service apache2 start` на `ws22`и `r1`: \
+  то есть сделать сервер Apache2 общедоступным; \
+  Запустить веб-сервер Apache командой `service apache2 start` на `ws22`и `r1`:
   - машина `ws22`: \
-  <img src="./misc/images/nat_01.png" alt="nat_01" width="700"/>
+    <img src="./misc/images/nat_01.png" alt="nat_01" width="700"/>
   - машина `r1`: \
-  <img src="./misc/images/nat_02.png" alt="nat_02" width="700"/>
+    <img src="./misc/images/nat_02.png" alt="nat_02" width="700"/>
 
 
 
