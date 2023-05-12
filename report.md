@@ -274,13 +274,13 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/route_30.png" alt="route_30" width="700"/> \
   <img src="./misc/images/route_31.png" alt="route_31" width="700"/>
 - Дамп команды `tcpdum` производит большой вывод: \
-  в начале видно, что пересылаются пакеты с адреса ws11 на адресс ws21: \
+  в начале видно, что пересылаются пакеты с адреса `ws11` на адресс `ws21`: \
   <img src="./misc/images/route_32.png" alt="route_32" width="700"/> \
   также можно проследить примерный маршрут в обратном направлении: \
-  от ws21 до w11, от r2 до ws11 и от r1 до ws11: \
+  от `ws21` до `w11`, от `r2` до `ws11` и от `r1` до `ws11`: \
   <img src="./misc/images/route_33.png" alt="route_33" width="700"/> \
-  или ws21 -> r2 -> r1 -> ws11; \
-  т.e. ws11 -> r1 -> r2 -> ws21;
+  или `ws21 -> r2 -> r1 -> ws11`; \
+  т.e. `ws11 -> r1 -> r2 -> ws21`;
 
 #### 5.6. Использование протокола ICMP при маршрутизации
 
