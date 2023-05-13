@@ -16,4 +16,7 @@ Linux networks configuration on virtual machines.
 - [Static routing between two machines](./report.md#part-2-static-routing-between-two-machines)
 - [iperf3 utility](./report.md#part-3-iperf3-utility)
 - [Network firewall](./report.md#part-4-network-firewall)
-- [](./report.md#part-1-)
+- [Static network routing](./report.md#part-5-static-network-routing)
+- [Dynamic IP configuration using DHCP](./report.md#part-6-dynamic-ip-configuration-using-dhcp)
+- [NAT](./report.md#part-7-nat)
+- [Introduction to SSH Tunnels](./report.md#part-8-bonus-introduction-to-ssh-tunnels)
