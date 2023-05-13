@@ -10,7 +10,8 @@ Linux networks configuration on virtual machines.
 4. [Network firewall](#part-4-network-firewall)
 5. [Static network routing](#part-5-static-network-routing)
 6. [Dynamic IP configuration using DHCP](#part-6-dynamic-ip-configuration-using-dhcp)
-7. [Part 7. NAT](#part-7-nat)
+7. [NAT](#part-7-nat)
+8. [Bonus. Introduction to SSH Tunnels](#part-8-bonus-introduction-to-ssh-tunnels)
 
 ## Part 1. ipcalc tool
 
@@ -364,5 +365,8 @@ Linux networks configuration on virtual machines.
 - Проверить соединение по TCP для DNAT, для этого с r1 подключиться к серверу Apache на ws22 командой telnet (обращаться по адресу r2 и порту 8080): \
   <img src="./misc/images/nat_11.png" alt="nat_11" width="700"/>
 
+## Part 8. Bonus. Introduction to SSH Tunnels
 
-  
+- Запустить на r2 фаервол с правилами из Части 7 \
+  <img src="./misc/images/ssh_tunnels_01.png" alt="ssh_tunnels_01" width="700"/>
+
