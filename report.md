@@ -371,4 +371,8 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/ssh_tunnels_01.png" alt="ssh_tunnels_01" width="700"/>
 - Запустить веб-сервер Apache на `ws22` только на `localhost` (то есть в файле `/etc/apache2/ports.conf` изменить строку `Listen 80` на `Listen localhost:80`) \
   <img src="./misc/images/ssh_tunnels_02.png" alt="ssh_tunnels_02" width="700"/>
+- Воспользоваться Local TCP forwarding с `ws21` до `ws22`, чтобы получить доступ к веб-серверу на `ws22` с `ws21`:
+  - Для начала изменим конфигурационный файл `/etc/ssh/sshd_config` на `ws22` и перезапустим ssh сервер: \
+    <img src="./misc/images/ssh_tunnels_03.png" alt="ssh_tunnels_03" width="700"/>
+
 
