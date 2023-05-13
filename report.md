@@ -359,5 +359,10 @@ Linux networks configuration on virtual machines.
   -  Так как политика для цепочки FORWARD состоит в том, чтобы отбрасывать пакеты -- явно создадим запись позволяющую перенаправлять новые и установленные соединия `iptables -t filter -A FORWARD -m conntrack --cstate NEW,ESTABLISHED,RELATED -j ACCEPT`
 - В итоге файл `etc/firewall.sh` примет вид: \
   <img src="./misc/images/nat_09.png" alt="nat_09" width="700"/>
+- Проверить соединение по TCP для SNAT, для этого с ws22 подключиться к серверу Apache на r1: \
+  <img src="./misc/images/nat_10.png" alt="nat_10" width="700"/>
+- Проверить соединение по TCP для DNAT, для этого с r1 подключиться к серверу Apache на ws22 командой telnet (обращаться по адресу r2 и порту 8080): \
+  <img src="./misc/images/nat_11.png" alt="nat_11" width="700"/>
+
 
   
