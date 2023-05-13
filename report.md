@@ -345,7 +345,7 @@ Linux networks configuration on virtual machines.
   <img src="./misc/images/nat_08.png" alt="nat_08" width="700"/>
 - Добавить в файл ещё два правила: \
   включить SNAT, а именно маскирование всех локальных ip из локальной сети, находящейся за r2: \
-  включить DNAT на 8080 порт машины r2 и добавить к веб-серверу Apache, запущенному на ws22, доступ извне сети \
+  включить DNAT на 8080 порт машины r2 и добавить к веб-серверу Apache, запущенному на ws22, доступ извне сети
   - Для того, чтобы включить SNAT, добавим новую запись в `iptables`: \
     `iptables -t nat -A POSTROUTING -o enp0s3 -s 10.20.0.0/26 -j SNAT --to-source 10.100.0.12` \
     ключ -t указывает используемую таблицу; \
@@ -355,5 +355,5 @@ Linux networks configuration on virtual machines.
  - Для того, чтобы включить DNAT, добавим новую запись в `iptables`: \
   `iptables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 8080 -j DNAT --to-destination 10.20.0.20:80` \
   DNAT - или изменения адреса и порта назначения пакета. Это действие применимо в цепочках PREROUTING и OUTPUT, т.е. на самом входе в брандмауэр; \
-  ключ -i enp0s3 указывает входящий интерфейс; \
+  ключ -i enp0s3 указывает входящий интерфейс;
   
