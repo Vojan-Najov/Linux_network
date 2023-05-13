@@ -382,8 +382,11 @@ Linux networks configuration on virtual machines.
     <img src="./misc/images/ssh_tunnels_05.png" alt="ssh_tunnels_05" width="700"/>
 - Воспользоваться Remote TCP forwarding c `ws11` до `ws22`, чтобы получить доступ к веб-серверу на `ws22` с `ws11`
   - Сначала установить `ssh сервер` на машине `ws11` и разрешим перенапрваление tcp добавив в конфигурационный файл `/etc/ssh/sshd_config` запись `AllowTcpForwarding yes`
-  - Подключимся с машины `ws22` к `ssh серверу` на `ws11` командой: \
-    `$>ssh -R 9999:127.0.0.1:80 10.10.0.1` \
-    <img src="./misc/images/ssh_tunnels_06.png" alt="ssh_tunnels_06" width="700"/>
+  - Подключимся с машины `ws22` к `ssh серверу` на `ws11` командой: `$>ssh -R 9999:127.0.0.1:80 10.10.0.2` \
+    После успешного подключения, на `ws11` SSH-сервер начинает слушать порт 9999. При подключении к порту 9999 на `ws11`, SSH-клиент на `ws22` устанавливает соединение с localhost (коим и является для себя самого `ws22`) на порт 80 и передает по этому соединению данные, принятые ssh-сервером на `ws11` на порт 9999.
+    <img src="./misc/images/ssh_tunnels_06.png" alt="ssh_tunnels_06" width="700"/> \
+    <img src="./misc/images/ssh_tunnels_07.png" alt="ssh_tunnels_07" width="700"/>
+  - Теперь на машине `ws11` подключимся к `apache` серверу на `ws22`: \
+    <img src="./misc/images/ssh_tunnels_08.png" alt="ssh_tunnels_08" width="700"/>
 
 
