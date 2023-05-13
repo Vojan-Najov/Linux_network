@@ -14,3 +14,6 @@ Linux networks configuration on virtual machines.
 
 - [ipcalc tool](./report.md#part-1-ipcalc-tool)
 - [Static routing between two machines](./report.md#part-2-static-routing-between-two-machines)
+- [iperf3 utility](./report#part-3-iperf3-utility)
+- [Network firewall](./report#part-4-network-firewall)
+- [](./report#part-1-)
