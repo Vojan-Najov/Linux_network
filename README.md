@@ -13,4 +13,4 @@ Linux networks configuration on virtual machines.
 ## Tasks
 
 - [ipcalc tool](./report.md#part-1-ipcalc-tool)
-- [](./report.md#)
+- [Static routing between two machines](./report.md#part-2-static-routing-between-two-machines)
