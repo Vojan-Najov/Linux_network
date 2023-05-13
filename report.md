@@ -356,4 +356,8 @@ Linux networks configuration on virtual machines.
     `iptables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 8080 -j DNAT --to-destination 10.20.0.20:80` \
     DNAT - или изменения адреса и порта назначения пакета. Это действие применимо в цепочках PREROUTING и OUTPUT, т.е. на самом входе в брандмауэр; \
     ключ -i enp0s3 указывает входящий интерфейс;
+  -  Так как политика для цепочки FORWARD состоит в том, чтобы отбрасывать пакеты -- явно создадим запись позволяющую перенаправлять новые и установленные соединия `iptables -t filter -A FORWARD -m conntrack --cstate NEW,ESTABLISHED,RELATED -j ACCEPT`
+- В итоге файл `etc/firewall.sh` примет вид: \
+  <img src="./misc/images/nat_09.png" alt="nat_09" width="700"/>
+
   
