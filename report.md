@@ -369,6 +369,6 @@ Linux networks configuration on virtual machines.
 
 - Запустить на `r2` фаервол с правилами из Части 7 \
   <img src="./misc/images/ssh_tunnels_01.png" alt="ssh_tunnels_01" width="700"/>
-- Запустить веб-сервер Apache на `ws22` только на `localhost` (то есть в файле `/etc/apache2/ports.conf` изменить строку `Listen 80` на Listen `localhost:80`)
+- Запустить веб-сервер Apache на `ws22` только на `localhost` (то есть в файле `/etc/apache2/ports.conf` изменить строку `Listen 80` на `Listen localhost:80`) \
   <img src="./misc/images/ssh_tunnels_02.png" alt="ssh_tunnels_02" width="700"/>
 
