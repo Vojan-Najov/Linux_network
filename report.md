@@ -374,5 +374,11 @@ Linux networks configuration on virtual machines.
 - Воспользоваться Local TCP forwarding с `ws21` до `ws22`, чтобы получить доступ к веб-серверу на `ws22` с `ws21`:
   - Для начала изменим конфигурационный файл `/etc/ssh/sshd_config` на `ws22` и перезапустим ssh сервер: \
     <img src="./misc/images/ssh_tunnels_03.png" alt="ssh_tunnels_03" width="700"/>
+  - На машине `ws21` с помощью `tmux`  создадим второй терминал. \
+    В первом терминале подключимся к ssh серверу на `ws22` командой `ssh -L 9999:127.0.0.1:80 10.20.0.20` \
+   опция -L указывает, что подключения к TCP-порту 9999 на локальном хосте должен быть перенаправлен на указанный хост и порт на удаленной стороне. \
+   Во втором терминале с помощью `telnet 127.0.0.1 9999` пробуем подключиться к серверу `apache` на ws22 \
+    <img src="./misc/images/ssh_tunnels_04.png" alt="ssh_tunnels_04" width="700"/> \
+    <img src="./misc/images/ssh_tunnels_05.png" alt="ssh_tunnels_05" width="700"/>
 
 
